@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dfbfe4b-b5c6-4605-87e8-a071936700e1" name="Default" comment="" />
+    <list default="true" id="2dfbfe4b-b5c6-4605-87e8-a071936700e1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/public/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/src/App.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/src/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/src/App.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/src/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/src/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videosite/src/registerServiceWorker.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,14 +28,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/videosite/package.json" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/video-site/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="64" />
@@ -43,13 +72,30 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projectNo4-VideoSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectNo4-VideoSite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectNo4-VideoSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectNo4-VideoSite" type="462c0819:PsiDirectoryNode" />
+              <item name="video-site" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,12 +119,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501082437681</updated>
-      <workItem from="1501082440562" duration="121000" />
+      <workItem from="1501082440562" duration="986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121000" />
+    <option name="totallyTimeSpent" value="986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -87,9 +133,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55520993" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -111,6 +157,16 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/videosite/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
