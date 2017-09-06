@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 import SearchBar from "./components/search-bar"
 import YTSearch from 'youtube-api-search'
 
+import { Grid } from 'react-bootstrap'
+
 const API_KEY = 'AIzaSyDnLq67jGMjUp1e84MYEqjVdHSQ1EELCmA'
 
 class App extends Component {
@@ -16,9 +18,11 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                <SearchBar/>
-            </div>
+            <Grid fluid>
+                <div>
+                    <SearchBar/>
+                </div>
+            </Grid>
         )
     }
 }
