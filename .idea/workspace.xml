@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2dfbfe4b-b5c6-4605-87e8-a071936700e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-site/src/components/video-list.js" afterPath="$PROJECT_DIR$/video-site/src/components/video-list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-site/src/components/video-list-item.js" afterPath="$PROJECT_DIR$/video-site/src/components/video-list-item.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,31 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video-list-item.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="video-list-item.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video-site/src/components/video-list-item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-site/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video-list.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/video-site/src/components/video-list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -81,8 +61,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/video-site/public/index.html" />
         <option value="$PROJECT_DIR$/video-site/src/index.js" />
-        <option value="$PROJECT_DIR$/video-site/src/components/video-list-item.js" />
         <option value="$PROJECT_DIR$/video-site/src/components/video-list.js" />
+        <option value="$PROJECT_DIR$/video-site/src/components/video-list-item.js" />
       </list>
     </option>
   </component>
@@ -208,7 +188,7 @@
       <workItem from="1503848893161" duration="229000" />
       <workItem from="1503849242730" duration="12000" />
       <workItem from="1504615085956" duration="1123000" />
-      <workItem from="1504687552156" duration="4684000" />
+      <workItem from="1504687552156" duration="5087000" />
     </task>
     <task id="LOCAL-00001" summary="create search-bar content">
       <created>1503650402176</created>
@@ -238,11 +218,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504693945442</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add unique key to items in list">
+      <created>1504694440893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504694440893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15887000" />
+    <option name="totallyTimeSpent" value="16290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1691" y="95" width="1301" height="772" extended-state="6" />
@@ -297,7 +284,8 @@
     <MESSAGE value="create state with videos" />
     <MESSAGE value="add bootstrap to project" />
     <MESSAGE value="map list of videos" />
-    <option name="LAST_COMMIT_MESSAGE" value="map list of videos" />
+    <MESSAGE value="add unique key to items in list" />
+    <option name="LAST_COMMIT_MESSAGE" value="add unique key to items in list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,14 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-site/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video-site/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -610,18 +590,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-site/src/components/video-list-item.js">
+    <entry file="file://$PROJECT_DIR$/video-site/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="368">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video-site/src/components/video-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="207">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-site/src/components/video-list-item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>
