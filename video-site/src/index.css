@@ -1,21 +1,58 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    color: #eee;
+    font-family: 'Roboto', cursive;
+    background: #040404;
+}
+
+.panel {
+    background: linear-gradient(to right, #110000, #1e0000);
+    padding-right: 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .search-bar {
-    margin: 2em;
+    margin: 1em 0;
+    padding: 2em;
     text-align: center;
 }
 
+.search-bar span {
+    color: #830000;
+}
+
 .search-bar input {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     width: 50%;
+    padding: 0.5em 0;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: #830000;
+}
+
+.search-bar input:focus, .search-bar input:hover {
+    background: #aa0000;
+}
+
+.search-bar input:hover {
+    cursor: pointer;
 }
 
 .search-bar i {
     margin-right: 1em;
     font-size: 2em;
+    color: #eee;
+    padding: 0.3em;
+    border-radius: 100%;
+}
+
+.search-bar h1 {
+    margin-bottom: 1em;
 }
 
 .video-item img {
@@ -26,36 +63,66 @@ body {
     text-align: center;
     font-size: 1.1em;
     font-weight: bold;
+    margin-top: 2em;
 }
 
-.media-heading h4 {
-    text-align: justify;
-    font-size: 0.9em;
-    padding: 0 1em;
+.video-detail {
+    padding: 3em;
 }
 
 .video-detail .details {
-    margin-top: 1em;
     padding: 1em;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    background: #600000;
+    border-radius: 5px;
 }
 
 .video-detail h1 {
     text-align: center;
+    font-size: 1.6em;
 }
 
 .video-detail h2 {
-    font-size: 1.3em;
+    font-size: 1.1em;
+    padding: 0 1em;
     text-align: justify;
+    line-height: 1.5em;
 }
+
 
 .list-group-item {
     cursor: pointer;
+    background: transparent;
+    border: none;
+    margin: 1.5em;
+    border-radius: 5px;
+}
+
+.list-group {
+    border-left: 1em solid #040404;
+    padding-bottom: 1.3em;
+}
+
+.list-group-item img {
+    filter: grayscale(100%) brightness(50%);
+    transition: filter 0.3s, transform 0.2s ease;
+}
+
+.list-group-item h3 {
+    color: #aaa;
+}
+
+
+.list-group-item:hover img {
+    filter: grayscale(0) brightness(100%);
+    transform: scale(1.1);
 }
 
 .list-group-item:hover {
-    transition: background 0.2s;
-    background: rgba(0, 0, 255, 0.15);
+    transition: background 0.3s, color 0.3s;
+    background: #830000;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+.list-group-item:hover h3 {
+    color: #eee;
+}

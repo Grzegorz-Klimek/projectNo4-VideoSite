@@ -8,7 +8,8 @@ class SearchBar extends Component {
 
     render() {
         return (
-            <div className="search-bar">
+            <div className="search-bar panel">
+                <h1>Simple<span>VideoApp</span></h1>
                 <i className="fa fa-search" aria-hidden="true"></i>
                 <input
                     value={this.state.term}

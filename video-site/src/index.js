@@ -23,7 +23,7 @@ class App extends Component {
 
         }
 
-        this.videoSearch('Iron Maiden')
+        this.videoSearch('Arch Enemy')
     }
 
     videoSearch(term) {
@@ -40,17 +40,23 @@ class App extends Component {
 
         return (
             <Grid fluid>
-                <div>
-                    <SearchBar
-                        onSearchTermChange={videoSearch}
-                    />
-                    <VideoDetail
-                        video={this.state.selectedVideo}
-                    />
-                    <VideoList
-                        onVideoSelect={selectedVideo => this.setState({selectedVideo})}
-                        videos={this.state.videos}
-                    />
+                <div className="row">
+                    <div className="row">
+                        <div className="col-md-8 col-md-offset-2">
+                            <SearchBar
+                                onSearchTermChange={videoSearch}
+                            />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <VideoDetail
+                            video={this.state.selectedVideo}
+                        />
+                        <VideoList
+                            onVideoSelect={selectedVideo => this.setState({selectedVideo})}
+                            videos={this.state.videos}
+                        />
+                    </div>
                 </div>
             </Grid>
         )
