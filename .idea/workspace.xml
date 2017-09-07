@@ -20,8 +20,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video-site/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="97" column="71" lean-forward="false" selection-start-line="97" selection-start-column="71" selection-end-line="97" selection-end-column="71" />
+            <state relative-caret-position="327">
+              <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -209,7 +209,7 @@
       <workItem from="1504615085956" duration="1123000" />
       <workItem from="1504687552156" duration="10677000" />
       <workItem from="1504719176144" duration="639000" />
-      <workItem from="1504768934935" duration="9343000" />
+      <workItem from="1504768934935" duration="9469000" />
     </task>
     <task id="LOCAL-00001" summary="create search-bar content">
       <created>1503650402176</created>
@@ -316,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504782364374</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="final styles - second atttempt">
+      <created>1504782408646</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1504782408646</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31862000" />
+    <option name="totallyTimeSpent" value="31988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1691" y="95" width="1303" height="780" extended-state="6" />
@@ -367,7 +374,8 @@
     <MESSAGE value="add lodash" />
     <MESSAGE value="add lodash debounce method to delay search" />
     <MESSAGE value="final styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="final styles" />
+    <MESSAGE value="final styles - second atttempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="final styles - second atttempt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -694,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video-site/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="97" column="71" lean-forward="false" selection-start-line="97" selection-start-column="71" selection-end-line="97" selection-end-column="71" />
+        <state relative-caret-position="327">
+          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
           <folding />
         </state>
       </provider>
