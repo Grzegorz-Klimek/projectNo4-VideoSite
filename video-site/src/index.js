@@ -37,7 +37,7 @@ class App extends Component {
     render() {
         return (
             <Grid fluid>
-                <div className="col-sm-8 col-sm-offset-2">
+                <div>
                     <SearchBar
                         onSearchTermChange={term => this.videoSearch(term)}
                     />
