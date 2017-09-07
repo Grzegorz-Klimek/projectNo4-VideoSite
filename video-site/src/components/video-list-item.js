@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './video-list-item.css'
-
 const VideoListItem = ({video, onVideoSelect}) => {
     const imageUrl = video.snippet.thumbnails.default.url
 
@@ -13,8 +11,8 @@ const VideoListItem = ({video, onVideoSelect}) => {
                 </div>
                 <div className="media-body">
                     <div className="media-heading">
-                        {video.snippet.title}
-                        {video.snippet.description}
+                        <h3>{video.snippet.title}</h3>
+                        <h4>{video.snippet.description}</h4>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,61 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background: #080808;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
+
+.search-bar {
+    margin: 2em;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 50%;
+}
+
+.search-bar i {
+    margin-right: 1em;
+    font-size: 2em;
+}
+
+.video-item img {
+    max-width: 64px;
+}
+
+.media-heading h3 {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.media-heading h4 {
+    text-align: justify;
+    font-size: 0.9em;
+    padding: 0 1em;
+}
+
+.video-detail .details {
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.video-detail h1 {
+    text-align: center;
+}
+
+.video-detail h2 {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    transition: background 0.2s;
+    background: rgba(0, 0, 255, 0.15);
+}
+

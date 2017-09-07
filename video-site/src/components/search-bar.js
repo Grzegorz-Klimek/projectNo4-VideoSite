@@ -8,7 +8,7 @@ class SearchBar extends Component {
 
     render() {
         return (
-            <div>
+            <div className="search-bar">
                 <i className="fa fa-search" aria-hidden="true"></i> <input onChange={event => this.setState({ term: event.target.value })} />
             </div>
         )
