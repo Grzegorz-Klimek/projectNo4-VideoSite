@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
-import { Grid } from 'react-bootstrap'
+import {Grid} from 'react-bootstrap'
 
 import './index.css'
 
@@ -22,7 +22,11 @@ class App extends Component {
 
         }
 
-        YTSearch({key: API_KEY, term: 'Iron Maiden'}, (videos) => {
+        this.videoSearch('Iron Maiden')
+    }
+
+    videoSearch(term) {
+        YTSearch({key: API_KEY, term: term}, (videos) => {
             this.setState({
                 videos: videos,
                 selectedVideo: videos[0]
@@ -34,8 +38,12 @@ class App extends Component {
         return (
             <Grid fluid>
                 <div className="col-sm-8 col-sm-offset-2">
-                    <SearchBar/>
-                    <VideoDetail video={this.state.selectedVideo}/>
+                    <SearchBar
+                        onSearchTermChange={term => this.videoSearch(term)}
+                    />
+                    <VideoDetail
+                        video={this.state.selectedVideo}
+                    />
                     <VideoList
                         onVideoSelect={selectedVideo => this.setState({selectedVideo})}
                         videos={this.state.videos}
